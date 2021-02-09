@@ -276,6 +276,32 @@ span.aboutUsSubTitle {
     margin: 0;
 }
 
+section.aboutUsContentSection {
+    margin: 50px 10%;
+    padding: 0;
+    display: grid;
+
+    /*Define our columns */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+span.aboutDescriptionTitle {
+    display: flex;
+    justify-content: center;
+    font-family: WhitneyBold;
+    font-size: 45px;
+    color: rgb(53, 83, 212);
+    margin-bottom: 10px;
+}
+
+p.aboutDescription {
+    font-family: WhitneyMedium;
+    color: black;
+    margin: 0;
+    font-size: 18px;
+}
+
 /* ---------------- Officers Page ---------------- */
 
 section.mainOfficerSection {
