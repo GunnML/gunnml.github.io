@@ -209,7 +209,7 @@ header.siteNavHeaderAbout {
 }
 
 header.siteNavScrolledAbout {
-    background: rgb(0, 0, 0, 0.5);
+    background: rgb(38, 64, 185, 0.9);
 }
 
 h1.navMainTitleAbout {
@@ -282,13 +282,13 @@ span.aboutUsSubTitle {
 }
 
 section.aboutUsContentSection {
-    margin: 50px 10%;
+    margin: 50px 5%;
     padding: 0;
     display: grid;
 
     /*Define our columns */
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
 }
 
 span.aboutDescriptionTitle {
@@ -300,10 +300,15 @@ span.aboutDescriptionTitle {
     margin-bottom: 10px;
 }
 
+article.descriptionHolder {
+    display: flex;
+    justify-content: center;
+}
+
 p.aboutDescription {
     font-family: WhitneyMedium;
     color: black;
-    margin: 0;
+    margin: 20px;
     font-size: 18px;
 }
 
