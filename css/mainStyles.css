@@ -92,6 +92,11 @@ li.navbarDivider {
 
 div.mainContent {
     margin-top: 100px;
+    min-height: calc(100vh - 100px);
+}
+
+div.mainContent2 {
+    min-height: 100vh;
 }
 
 section.homePageSection {
