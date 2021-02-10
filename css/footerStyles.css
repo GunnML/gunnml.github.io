@@ -81,6 +81,10 @@ div.socials {
     display: inline-block;
 }
 
+div.socials a {
+    text-decoration: none;
+}
+
 i.socialsIcon {
     margin: 0;
     padding: 0 10px 0 0px;
