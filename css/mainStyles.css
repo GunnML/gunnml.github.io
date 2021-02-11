@@ -284,7 +284,7 @@ span.aboutUsSubTitle {
 }
 
 section.aboutUsContentSection {
-    margin: 50px 5%;
+    margin: 100px 5%;
     padding: 0;
     display: grid;
 
@@ -422,6 +422,23 @@ p.role {
     color: #bababa;
     font-size: 17px;
     font-family: WhitneyMedium;
+}
+
+h1.noSpeakersTitle {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 150px;
+    color:rgb(59, 96, 255);
+}
+
+p.noSpeakersSubtitle {
+    text-align: center;
+    font-family: WhitneyMedium;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color:black;
 }
 
 /* ---------------- Events Page ---------------- */
